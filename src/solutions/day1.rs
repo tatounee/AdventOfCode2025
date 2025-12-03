@@ -24,7 +24,6 @@ pub fn part2(input: &str) -> i32 {
         .lines()
         .map(|act| {
             let mut delta = act[1..].parse::<i32>().unwrap();
-            // delta = delta * (act.as_bytes()[0] as i32) * 2 - 1;
 
             let mut pass0 = delta / 100;
             delta %= 100;

@@ -40,7 +40,6 @@ fn solution(input: &str, is_invalide: impl Fn(&str) -> bool) -> u64 {
             (start..=end).filter_map(|id| {
                 let text = id.to_string();
                 if is_invalide(&text) {
-                    // println!("text {text}");
                     Some(id)
                 } else {
                     None
