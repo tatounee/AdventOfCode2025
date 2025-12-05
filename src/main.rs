@@ -45,5 +45,5 @@ macro_rules! aoc {
 }
 
 fn main() {
-    aoc!(day1, day2, day3, day4);
+    aoc!(day1, day2, day3, day4, day5);
 }
